@@ -32,8 +32,8 @@ class Pet:
             self.energy -=2
         else:
             self.energy = 0
-        self.happiness +=2  
-        self.hunger +=1
+            self.happiness +=2  
+            self.hunger +=1
 
         #prints the current state of the pet.
 
@@ -43,7 +43,7 @@ class Pet:
         
         return f"Name: {self.name}, Hunger:{self.hunger}, Energy: {self.energy}, Happiness: {self.happiness}  "
     
-    
+
 
     
     
